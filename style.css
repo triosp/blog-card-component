@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: url(./images/cover.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: #f5e7da;
+  font-family: "Mulish", sans-serif;
+}
+
+/* write your CSS here */
+.container {
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-card {
+  margin: 1em;
+  max-width: 310px;
+  min-height: 480px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 5px 4px 10px #545d7a61;
+}
+
+.blog-card .blog-header img {
+  height: 200px;
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.blog-content,
+.blog-footer {
+  padding: 0.7em;
+  margin: 10px;
+}
+
+.blog-content .btn {
+  background-color: #f97316;
+  color: #fff;
+  padding: 2px 1em;
+  border-radius: 24px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 2px 5px 5px rgba(140, 129, 129, 0.237);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.blog-card .blog-content h1 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px auto;
+}
+
+.blog-card .blog-content p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.blog-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.blog-footer img {
+  border-radius: 24px;
+}
+.blog-footer .text h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.blog-footer .text p {
+  font-size: 12px;
+  color: 545D7A;
+}
