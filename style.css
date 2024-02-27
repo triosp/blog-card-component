@@ -47,7 +47,7 @@ body {
   margin: 10px;
 }
 
-.blog-content .btn {
+.blog-content .tag {
   background-color: #f97316;
   color: #fff;
   padding: 2px 1em;
@@ -57,13 +57,12 @@ body {
   font-size: 14px;
   font-weight: 400;
   box-shadow: 2px 5px 5px rgba(140, 129, 129, 0.237);
-  margin-bottom: 10px;
-  cursor: pointer;
+  text-decoration: none;
 }
 .blog-card .blog-content h1 {
   font-weight: bold;
   font-size: 18px;
-  margin: 5px auto;
+  margin: 10px auto;
 }
 
 .blog-card .blog-content p {
